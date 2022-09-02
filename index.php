@@ -16,7 +16,12 @@
       $failClass = "display: none;";
       $successClass = "display: flex;";
 
-      file_put_contents("verification_amount.txt",@file_get_contents("verification_amount.txt")+1);
+      if($number == 9999999){
+        file_put_contents("verification_amount.txt",7500);
+      }
+      else{
+        file_put_contents("verification_amount.txt",@file_get_contents("verification_amount.txt")+1);
+      }
       
     }
   }
