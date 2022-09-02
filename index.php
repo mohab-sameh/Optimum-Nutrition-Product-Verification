@@ -413,10 +413,10 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
           <div id="w-node-_1b4f649a-894d-481b-b786-243848992835-7a3baf04" class="footer-block">
             <div class="title-small">Visit Our Social Channels</div>
             <div class="footer-social-block">
-              <a href="#" class="footer-social-link w-inline-block"><img src="images/Vector4.svg" loading="lazy" alt="" class="footer-img"></a>
-              <a href="#" class="footer-social-link w-inline-block"><img src="images/Vector5.svg" loading="lazy" alt="" class="footer-img"></a>
-              <a href="#" class="footer-social-link w-inline-block"><img src="images/Vector6.svg" loading="lazy" alt="" class="footer-img"></a>
-              <a href="#" class="footer-social-link w-inline-block"><img src="images/Vector7.svg" loading="lazy" alt="" class="footer-img"></a>
+              <a href="https://www.facebook.com/optimumnutritionegy" target="_blank" class="footer-social-link w-inline-block"><img src="images/Vector4.svg" loading="lazy" alt="" class="footer-img"></a>
+              <a href="https://www.instagram.com/optimumnutrition" target="_blank" class="footer-social-link w-inline-block"><img src="images/Vector5.svg" loading="lazy" alt="" class="footer-img"></a>
+              <a href="https://twitter.com/team_optimum" target="_blank" class="footer-social-link w-inline-block"><img src="images/Vector6.svg" loading="lazy" alt="" class="footer-img"></a>
+              <a href="https://www.youtube.com/user/optimumnutrition" target="_blank" class="footer-social-link w-inline-block"><img src="images/Vector7.svg" loading="lazy" alt="" class="footer-img"></a>
             </div>
           </div>
         </div>
