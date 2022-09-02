@@ -365,6 +365,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
       </div>
     </div>
   </section>
+  <!--
   <div class="section padded wf-section">
     <div class="container w-container">
       <div class="transitioning-section-content-wrapper">
@@ -373,6 +374,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
       </div>
     </div>
   </div>
+  -->
   <div class="section wf-section">
     <div id="on-quality" class="transitioning-section-content-wrapper full-width">
       <h1 class="main-h1 centered"><strong>Optimum Quality</strong></h1>
