@@ -45,8 +45,29 @@
   transform: translate(0px, -2px);
 }
 
+.nav-link.w--current {
+  color: #fff;
+}
+
 .container {
   max-width: 1100px;
+}
+
+.container.full-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .navbar-flex-wrapper {
@@ -82,12 +103,13 @@
 }
 
 .hero-banner {
+  position: relative;
   z-index: 2;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 540px;
+  width: 520px;
   height: auto;
   margin-bottom: -60px;
   margin-left: auto;
@@ -108,7 +130,9 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   height: auto;
+  margin-bottom: 60px;
   padding: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -127,7 +151,11 @@
 }
 
 .hero-banner-bottom-section {
-  position: relative;
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -227,10 +255,17 @@
   -ms-flex-align: center;
   align-items: center;
   border: 2px solid #000;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
   color: #000;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.main-button:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .main-button.black {
@@ -238,6 +273,16 @@
   background-color: #000;
   color: #fff;
   font-weight: 400;
+}
+
+.main-button.gold {
+  border-style: none;
+  background-color: #ab8c61;
+  color: #fff;
+}
+
+.main-button.white.w--current {
+  background-color: #fff;
 }
 
 .author-testimonial {
@@ -446,7 +491,7 @@
 }
 
 .slide-content {
-  position: relative;
+  position: static;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -634,6 +679,7 @@
 .error-message {
   height: 100vh;
   min-height: 100vh;
+  margin-top: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #cf0000;
@@ -787,6 +833,19 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+}
+
+.form-content.hidden {
+  display: none;
+}
+
+.form-content.relative {
+  position: relative;
+  top: auto;
+  bottom: auto;
+  width: 540px;
+  margin-left: auto;
+  padding-left: 20px;
 }
 
 .help-block {
@@ -1070,6 +1129,7 @@
 
 .footer-dark {
   position: relative;
+  margin-top: 50px;
   padding: 50px 30px 40px;
   border-bottom: 1px none #e4ebf3;
   background-color: #000;
@@ -1324,6 +1384,11 @@
   display: flex;
   width: 100%;
   height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1332,6 +1397,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  grid-row-gap: 20px;
 }
 
 .text-block-5 {
@@ -1378,6 +1444,73 @@
   object-position: 50% 0%;
 }
 
+.text-block-7 {
+  border: 1px none #000;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.absolute-wrapper {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  padding-right: 64px;
+  padding-left: 64px;
+}
+
+.form-content-wrapper---absolute {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
 @media screen and (max-width: 991px) {
   .navbar {
     position: fixed;
@@ -1422,6 +1555,16 @@
   .hero-wrapper {
     padding-right: 40px;
     padding-left: 40px;
+  }
+
+  .hero-banner {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .hero-banner-top-section {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .text-block {
@@ -1482,6 +1625,14 @@
   .checkbox-base {
     height: auto;
     min-height: 100px;
+  }
+
+  .form-content.relative {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
   }
 
   .slide-banner {
@@ -1575,6 +1726,18 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .absolute-wrapper {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .form-content-wrapper---absolute {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -1706,6 +1869,19 @@
   .footer-divider {
     margin-top: 60px;
   }
+
+  .absolute-wrapper {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .form-content-wrapper---absolute {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1714,6 +1890,7 @@
   }
 
   .hero-banner-top-section {
+    margin-bottom: 85px;
     padding-right: 20px;
     padding-left: 20px;
   }

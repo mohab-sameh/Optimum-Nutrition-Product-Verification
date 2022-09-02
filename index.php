@@ -25,7 +25,7 @@
 ?>
 
 <html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Fri Sep 02 2022 02:46:56 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri Sep 02 2022 15:57:23 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63112328b727575e7a3baf04" data-wf-site="63112328b7275721e03baf03">
 <head>
   <meta charset="utf-8">
@@ -85,9 +85,9 @@
     background-color: #6c33da;
     background-image: none;!important
     -webkit-border-top-left-radius: 4px;
-    -webkit-border-bottom-left-radius: 4px;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px
+		-webkit-border-bottom-left-radius: 4px;
+		border-top-left-radius: 4px;
+		border-bottom-left-radius: 4px
 }
 .irs-shadow {
     height: 3px;
@@ -196,7 +196,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
   <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
     <div class="container w-container">
       <div class="navbar-flex-wrapper">
-        <a href="index.php" aria-current="page" class="brand w-nav-brand w--current"><img src="images/Vector1.svg" loading="lazy" alt=""></a>
+        <a href="index.html" aria-current="page" class="brand w-nav-brand w--current"><img src="images/Vector1.svg" loading="lazy" alt="Optimum Nutrition Logo"></a>
         <nav role="navigation" class="nav-menu w-nav-menu">
           <div class="nav-items-wrapper">
             <a href="#verification" class="nav-link w-nav-link">Verification</a>
@@ -223,7 +223,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
             </div>
             <div data-w-id="39df9232-e56a-614b-acc5-7112f1e64c30" class="hero-banner-bottom-section">
               <div class="text-block">Can&#x27;t find your serial number? Click here to see where to find it.</div><img src="images/Vector2.svg" loading="lazy" alt="" class="image">
-              <div class="find-serial-explanation-wrapper"><img src="images/on-serial-find.jpg" loading="lazy" alt="" class="serial-find-image"></div>
+              <div class="find-serial-explanation-wrapper"><img src="images/on-serial-find.jpg" loading="lazy" alt="How to find product serial" class="serial-find-image"></div>
             </div>
           </div>
         </div>
@@ -238,11 +238,11 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
             <div class="slide w-slide">
               <div class="slide-wrapper">
                 <div class="slide-banner">
-                  <a href="#" class="banner-logo w-inline-block"><img src="images/Vector1.svg" alt="" class="image-2"></a>
+                  <a href="#" class="banner-logo w-inline-block"><img src="images/Vector1.svg" alt="Optimum Nutrition Logo" class="image-2"></a>
                   <div class="banner-content">
                     <div class="quote-wrap">
                       <h1 class="banner-h3">Verification<br>Process</h1>
-                      <p class="paragraph-intro">Use this free cloneable form as an engaging way to capture long form details from your users. This form is based on the webflow slider component which is placed inside of a form element. This allows us to add input fields on different slides and change the content in the 100VH area. </p>
+                      <p class="paragraph-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh a duis neque sapien proin felis, mus ut viverra. Lectus nisi orci eu, semper eget. Dui eget curabitur velit vulputate tristique potenti sapien vitae elementum. Nunc, risus sodales lorem sed. Enim justo vitae a mattis.</p>
                     </div>
                   </div>
                   <div class="verifications-banner">
@@ -253,12 +253,97 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
                   </div>
                 </div>
                 <div class="slide-content">
-                  <div class="form-content"><img src="images/Vector3.svg" alt="" class="logo">
+                  <div class="absolute-wrapper">
+                    <div class="container full-height w-container">
+                      <div class="form-content-wrapper---absolute">
+                        <div class="form-content relative"><img src="images/Vector3.svg" alt="Optimum Nutrition Logo black" class="logo">
+                          <div class="form-title-wrap">
+                            <div class="form-section-title">Begin by finding your serial code</div>
+                            <p class="form-paragraph">Make sure to enter the serial <strong>exactly </strong>as shown on your box without any extra spacing.<br></p>
+                          </div>
+                          <div class="form-wrap extra-space"><label for="Serial" class="field-label">Enter your serial code</label><input type="text" class="text-field w-input" maxlength="256" name="Serial" data-name="Serial" placeholder="XX-XXXXXX" id="Serial"></div>
+                          <div class="button-wrap">
+                            <a href="#" class="slider-right w-button">next step</a>
+                          </div>
+                          <div class="slide-counter">
+                            <div class="dot active-dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide-wrapper">
+                <div class="slide-banner">
+                  <a href="#" class="banner-logo w-inline-block"><img src="images/Vector1.svg" alt="Optimum Nutrition Logo" class="image-2"></a>
+                  <div class="banner-content">
+                    <div class="quote-wrap">
+                      <h1 class="banner-h3">Verification<br>Process</h1>
+                      <p class="paragraph-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh a duis neque sapien proin felis, mus ut viverra. Lectus nisi orci eu, semper eget. Dui eget curabitur velit vulputate tristique potenti sapien vitae elementum. Nunc, risus sodales lorem sed. Enim justo vitae a mattis.</p>
+                    </div>
+                  </div>
+                  <div class="verifications-banner">
+                    <h1 class="banner-h3">Verification<br>Process</h1>
+                    <div class="counter-wrapper">
+                      <div class="text-block-4"><?php echo $number ?></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide-content">
+                  <div class="absolute-wrapper">
+                    <div class="container full-height w-container">
+                      <div class="form-content-wrapper---absolute">
+                        <div class="form-content relative"><img src="images/Vector3.svg" alt="Optimum Nutrition Logo black" class="logo">
+                          <div class="form-title-wrap">
+                            <div class="form-section-title"><strong>ENTER YOUR NAME FOR IDENTIFICATION</strong></div>
+                            <p class="form-paragraph">Please enter your name below for identification.<br></p>
+                          </div>
+                          <div class="form-wrap extra-space"><label for="Name" class="field-label"><strong>Enter your name</strong></label><input type="text" class="text-field w-input" maxlength="256" name="Name" data-name="Name" placeholder="Enter your name here please.." id="Name"></div>
+                          <div class="button-wrap">
+                            <a href="#" class="slider-left w-inline-block"><img src="images/arrow.svg" alt="go back" class="arrow"></a>
+                            <a href="#" class="slider-right w-button">next step</a>
+                          </div>
+                          <div class="slide-counter">
+                            <div class="dot"></div>
+                            <div class="dot active-dot"></div>
+                            <div class="dot"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide-wrapper">
+                <div class="slide-banner">
+                  <a href="#" class="banner-logo w-inline-block"><img src="images/Vector1.svg" alt="Optimum Nutrition Logo" class="image-2"></a>
+                  <div class="banner-content">
+                    <div class="quote-wrap">
+                      <h1 class="banner-h3">Verification<br>Process</h1>
+                      <p class="paragraph-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh a duis neque sapien proin felis, mus ut viverra. Lectus nisi orci eu, semper eget. Dui eget curabitur velit vulputate tristique potenti sapien vitae elementum. Nunc, risus sodales lorem sed. Enim justo vitae a mattis.</p>
+                    </div>
+                  </div>
+                  <div class="verifications-banner">
+                    <h1 class="banner-h3">Verification<br>Process</h1>
+                    <div class="counter-wrapper">
+                      <div class="text-block-4"><?php echo $number ?></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide-content">
+                  <div class="form-content hidden"><img src="images/Vector3.svg" alt="Optimum Nutrition Logo black" class="logo">
                     <div class="form-title-wrap">
                       <div class="form-section-title">Begin by finding your serial code</div>
                       <p class="form-paragraph">Make sure to enter the serial <strong>exactly </strong>as shown on your box without any extra spacing.<br></p>
                     </div>
-                    <div class="form-wrap extra-space"><label for="Serial" class="field-label">Enter your serial code</label><input type="text" class="text-field w-input" maxlength="256" name="Serial" data-name="Serial" placeholder="XX-XXXXXX" id="Serial" required=""></div>
+                    <div class="form-wrap extra-space"><label for="Serial-3" class="field-label">Enter your serial code</label><input type="text" class="text-field w-input" maxlength="256" name="Serial-3" data-name="Serial 3" placeholder="XX-XXXXXX" id="Serial-3"></div>
                     <div class="button-wrap">
                       <a href="#" class="slider-right w-button">next step</a>
                     </div>
@@ -268,84 +353,32 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
                       <div class="dot"></div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="slide w-slide">
-              <div class="slide-wrapper">
-                <div class="slide-banner">
-                  <a href="#" class="banner-logo w-inline-block"><img src="images/Vector1.svg" alt="" class="image-2"></a>
-                  <div class="banner-content">
-                    <div class="quote-wrap">
-                      <h1 class="banner-h3">Verification<br>Process</h1>
-                      <p class="paragraph-intro">Use this free cloneable form as an engaging way to capture long form details from your users. This form is based on the webflow slider component which is placed inside of a form element. This allows us to add input fields on different slides and change the content in the 100VH area. </p>
-                    </div>
-                  </div>
-                  <div class="verifications-banner">
-                    <h1 class="banner-h3">Verification<br>Process</h1>
-                    <div class="counter-wrapper">
-                      <div class="text-block-4"><?php echo $number ?></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slide-content">
-                  <div class="form-content"><img src="images/Vector3.svg" alt="" class="logo">
-                    <div class="form-title-wrap">
-                      <div class="form-section-title">Enter your name for identification</div>
-                      <p class="form-paragraph">Please enter your name below for identification.<br></p>
-                    </div>
-                    <div class="form-wrap extra-space"><label for="Name" class="field-label">Enter your name</label><input type="text" class="text-field w-input" maxlength="256" name="Name" data-name="Name" placeholder="Enter your name here please.." id="Name" required=""></div>
-                    <div class="button-wrap">
-                      <a href="#" class="slider-left w-inline-block"><img src="https://uploads-ssl.webflow.com/630f90f3f839fd80f9b0bdb9/630f90f4f839fd9123b0bdd6_arrow.svg" alt="" class="arrow"></a>
-                      <a href="#" class="slider-right w-button">next step</a>
-                    </div>
-                    <div class="slide-counter">
-                      <div class="dot"></div>
-                      <div class="dot active-dot"></div>
-                      <div class="dot"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="slide w-slide">
-              <div class="slide-wrapper">
-                <div class="slide-banner">
-                  <a href="#" class="banner-logo w-inline-block"><img src="images/Vector1.svg" alt="" class="image-2"></a>
-                  <div class="banner-content">
-                    <div class="quote-wrap">
-                      <h1 class="banner-h3">Verification<br>Process</h1>
-                      <p class="paragraph-intro">Use this free cloneable form as an engaging way to capture long form details from your users. This form is based on the webflow slider component which is placed inside of a form element. This allows us to add input fields on different slides and change the content in the 100VH area. </p>
-                    </div>
-                  </div>
-                  <div class="verifications-banner">
-                    <h1 class="banner-h3">Verification<br>Process</h1>
-                    <div class="counter-wrapper">
-                      <div class="text-block-4"><?php echo $number ?></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slide-content">
-                  <div class="form-content"><img src="images/Vector3.svg" alt="" class="logo">
-                    <div class="form-title-wrap">
-                      <div class="form-section-title">Enter your email address</div>
-                      <p class="form-paragraph">Please enter your email address below.<br></p>
-                    </div>
-                    <div class="form-wrap extra-space"><label for="Email" class="field-label">Enter your email</label><input type="email" class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="info@inraft.com" id="Email"></div>
-                    <div class="button-wrap">
-                      <a href="#" class="slider-left w-inline-block"><img src="https://uploads-ssl.webflow.com/630f90f3f839fd80f9b0bdb9/630f90f4f839fd9123b0bdd6_arrow.svg" alt="" class="arrow"></a><input type="submit" data-ix="show-content-onslide" value="Complete Submission" data-wait="Working on that..." wait="Calculating Nash Equilibrium..." class="submit-button w-button" name="SubmitButton">
-                    </div>
-                    <div class="slide-counter">
-                      <div class="dot"></div>
-                      <div class="dot"></div>
-                      <div class="dot active-dot"></div>
+                  <div class="absolute-wrapper">
+                    <div class="container full-height w-container">
+                      <div class="form-content-wrapper---absolute">
+                        <div class="form-content relative"><img src="images/Vector3.svg" alt="Optimum Nutrition Logo black" class="logo">
+                          <div class="form-title-wrap">
+                            <div class="form-section-title"><strong>ENTER YOUR EMAIL ADDRESS</strong></div>
+                            <p class="form-paragraph">Please enter your email address below.<br></p>
+                          </div>
+                          <div class="form-wrap extra-space"><label for="Email" class="field-label"><strong>Enter your email</strong></label><input type="text" class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="Example@mail.com" id="Email"></div>
+                          <div class="button-wrap">
+                            <a href="#" class="slider-left w-inline-block"><img src="images/arrow.svg" alt="go back" class="arrow"></a><input type="submit" data-ix="show-content-onslide" value="Complete Submission" data-wait="Working on that..." wait="Calculating Nash Equilibrium..." class="submit-button w-button" name="SubmitButton">
+                          </div>
+                          <div class="slide-counter">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot active-dot"></div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="previous-placeholder w-slider-arrow-left"><img src="https://uploads-ssl.webflow.com/5d490b958f3da171d7abc6ae/5d491ad43cf49e9e54ecbc74_arrow.svg" alt="" class="arrow">
+          <div class="previous-placeholder w-slider-arrow-left"><img src="images/arrow.svg" alt="go back" class="arrow">
             <div class="previous-button">Previous</div>
           </div>
           <div class="next-placeholder w-slider-arrow-right">
@@ -356,25 +389,21 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
       <div class="success-message w-form-done" style="<?php echo $successClass; ?>">
         <div class="div-block">
           <div class="text-block-5">Your product is <span class="text-span-2">genuine.</span><br>Thanks for choosing <span>Optimum Nutrition</span>!</div>
+          <a href="" aria-current="page" class="main-button gold w-inline-block w--current">
+            <div>Verify another product</div>
+          </a>
         </div>
       </div>
       <div class="error-message w-form-fail" style="<?php echo $failClass; ?>">
         <div class="div-block">
           <div class="text-block-5">This serial does <strong>not </strong>match one of our genuine products&#x27; serials.<br></div>
+          <a href="" aria-current="page" class="main-button black w-inline-block w--current">
+            <div class="text-block-7">Try again</div>
+          </a>
         </div>
       </div>
     </div>
   </section>
-  <!--
-  <div class="section padded wf-section">
-    <div class="container w-container">
-      <div class="transitioning-section-content-wrapper">
-        <h1 class="main-h1 centered"><strong>Check the Authenticity of Your Product</strong></h1>
-        <div class="static-placeholder-div"></div>
-      </div>
-    </div>
-  </div>
-  -->
   <div class="section wf-section">
     <div id="on-quality" class="transitioning-section-content-wrapper full-width">
       <h1 class="main-h1 centered"><strong>Optimum Quality</strong></h1>
@@ -400,7 +429,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
   </div>
   <div class="section padded wf-section">
     <div class="container w-container">
-      <div class="transitioning-section-content-wrapper no-top-padding">
+      <div class="transitioning-section-content-wrapper">
         <div style="padding-top:56.17021276595745%" class="w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FaWQn5ZX62G0%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DaWQn5ZX62G0&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FaWQn5ZX62G0%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" allowfullscreen="" title="Recover with the World's Best Selling Whey Protein Powder: Gold Standard 100% Whey"></iframe></div>
       </div>
     </div>
@@ -408,23 +437,24 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
   <section id="about" class="footer-dark wf-section">
     <div class="container-2">
       <div class="footer-wrapper">
-        <a href="#" class="footer-brand w-inline-block"><img src="images/Vector1.svg" loading="lazy" alt=""></a>
+        <a href="#" class="footer-brand w-inline-block"><img src="images/Vector1.svg" loading="lazy" alt="Optimum Nutrition Logo"></a>
         <div class="footer-content">
           <div id="w-node-_1b4f649a-894d-481b-b786-243848992835-7a3baf04" class="footer-block">
             <div class="title-small">Visit Our Social Channels</div>
             <div class="footer-social-block">
-              <a href="https://www.facebook.com/optimumnutritionegy" target="_blank" class="footer-social-link w-inline-block"><img src="images/Vector4.svg" loading="lazy" alt="" class="footer-img"></a>
-              <a href="https://www.instagram.com/optimumnutrition" target="_blank" class="footer-social-link w-inline-block"><img src="images/Vector5.svg" loading="lazy" alt="" class="footer-img"></a>
-              <a href="https://twitter.com/team_optimum" target="_blank" class="footer-social-link w-inline-block"><img src="images/Vector6.svg" loading="lazy" alt="" class="footer-img"></a>
-              <a href="https://www.youtube.com/user/optimumnutrition" target="_blank" class="footer-social-link w-inline-block"><img src="images/Vector7.svg" loading="lazy" alt="" class="footer-img"></a>
+              <a href="https://www.facebook.com/optimumnutrition" target="_blank" class="footer-social-link w-inline-block"><img src="images/Vector4.svg" loading="lazy" alt="facebook logo" class="footer-img"></a>
+              <a href="https://www.instagram.com/optimumnutrition/" target="_blank" class="footer-social-link w-inline-block"><img src="images/Vector5.svg" loading="lazy" alt="instagram logo" class="footer-img"></a>
+              <a href="https://twitter.com/team_optimum" target="_blank" class="footer-social-link w-inline-block"><img src="images/Vector6.svg" loading="lazy" alt="twitter logo" class="footer-img"></a>
+              <a href="https://www.youtube.com/user/optimumnutrition" target="_blank" class="footer-social-link w-inline-block"><img src="images/63114e1e553f412de5d64e63_Vector7.svg" loading="lazy" alt="youtube logo" class="footer-img"></a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="footer-divider"></div>
+    <div class="footer-copyright-center bottom-margin">Copyright © 2022 ON Authenticity Check - All Rights Reserved.</div>
     <div class="footer-copyright-center">
-      <a href="http://inraft.com" target="_blank" class="link">Designed &amp; Developed by <span class="text-span">Inraft</span></a>
+      <a href="http://inraft.com" target="_blank" class="link">Designed &amp; Developed by <span class="text-span">Inraft Digital Solutions</span></a>
     </div>
   </section>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63112328b7275721e03baf03" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
