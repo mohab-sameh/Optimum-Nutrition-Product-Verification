@@ -30,7 +30,7 @@
 ?>
 
 <html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Fri Sep 02 2022 15:57:23 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat Sep 10 2022 18:09:08 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63112328b727575e7a3baf04" data-wf-site="63112328b7275721e03baf03">
 <head>
   <meta charset="utf-8">
@@ -228,7 +228,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
             </div>
             <div data-w-id="39df9232-e56a-614b-acc5-7112f1e64c30" class="hero-banner-bottom-section">
               <div class="text-block">Can&#x27;t find your serial number? Click here to see where to find it.</div><img src="images/Vector2.svg" loading="lazy" alt="" class="image">
-              <div class="find-serial-explanation-wrapper"><img src="images/on-serial-find.jpg" loading="lazy" alt="How to find product serial" class="serial-find-image"></div>
+              <div class="find-serial-explanation-wrapper"><img src="images/Authenticity_Check_Version_3.1-12.webp" loading="lazy" srcset="images/Authenticity_Check_Version_3.1-12-p-500.png 500w, images/Authenticity_Check_Version_3.1-12-p-800.png 800w, images/Authenticity_Check_Version_3.1-12-p-1080.png 1080w, images/Authenticity_Check_Version_3.1-12-p-1600.png 1600w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 520px" alt="Where to find serial on ON bottle" class="serial-find-image"></div>
             </div>
           </div>
         </div>
@@ -247,7 +247,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
                   <div class="banner-content">
                     <div class="quote-wrap">
                       <h1 class="banner-h3">Verification<br>Process</h1>
-                      <p class="paragraph-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh a duis neque sapien proin felis, mus ut viverra. Lectus nisi orci eu, semper eget. Dui eget curabitur velit vulputate tristique potenti sapien vitae elementum. Nunc, risus sodales lorem sed. Enim justo vitae a mattis.</p>
+                      <p class="paragraph-intro">The verification process ensures that the product you bought is a genuine product, made and verified by Optimum Nutrition.</p>
                     </div>
                   </div>
                   <div class="verifications-banner">
@@ -289,7 +289,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
                   <div class="banner-content">
                     <div class="quote-wrap">
                       <h1 class="banner-h3">Verification<br>Process</h1>
-                      <p class="paragraph-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh a duis neque sapien proin felis, mus ut viverra. Lectus nisi orci eu, semper eget. Dui eget curabitur velit vulputate tristique potenti sapien vitae elementum. Nunc, risus sodales lorem sed. Enim justo vitae a mattis.</p>
+                      <p class="paragraph-intro">The verification process ensures that the product you bought is a genuine product, made and verified by Optimum Nutrition.</p>
                     </div>
                   </div>
                   <div class="verifications-banner">
@@ -332,7 +332,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
                   <div class="banner-content">
                     <div class="quote-wrap">
                       <h1 class="banner-h3">Verification<br>Process</h1>
-                      <p class="paragraph-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh a duis neque sapien proin felis, mus ut viverra. Lectus nisi orci eu, semper eget. Dui eget curabitur velit vulputate tristique potenti sapien vitae elementum. Nunc, risus sodales lorem sed. Enim justo vitae a mattis.</p>
+                      <p class="paragraph-intro">The verification process ensures that the product you bought is a genuine product, made and verified by Optimum Nutrition.</p>
                     </div>
                   </div>
                   <div class="verifications-banner">
@@ -392,17 +392,22 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
         </div>
       </form>
       <div class="success-message w-form-done" style="<?php echo $successClass; ?>">
-        <div class="div-block">
-          <div class="text-block-5">Your product is <span class="text-span-2">genuine.</span><br>Thanks for choosing <span>Optimum Nutrition</span>!</div>
-          <a href="" aria-current="page" class="main-button gold w-inline-block w--current">
+        <div class="div-block"><img src="images/Creatine-300g-min.webp" loading="lazy" srcset="images/Creatine-300g-min.webp 500w, images/Creatine-300g-min.webp 800w, images/Creatine-300g-min.webp 848w" sizes="(max-width: 479px) 0px, 100vw" alt="ON Creatine Bottle" class="image-3">
+          <div class="verified-product-text-wrap">
+            <div class="text-block-5"><span class="text-span-2">Verified Product.</span>‍</div><img src="images/Vector9.svg" loading="lazy" alt="" class="image-4">
+          </div>
+          <div class="text-block-5">Micronized Creatine Powder<br>(300 g)</div>
+          <a href="" class="main-button gold w-inline-block">
             <div>Verify another product</div>
           </a>
         </div>
       </div>
       <div class="error-message w-form-fail" style="<?php echo $failClass; ?>">
         <div class="div-block">
-          <div class="text-block-5">This serial does <strong>not </strong>match one of our genuine products&#x27; serials.<br></div>
-          <a href="" aria-current="page" class="main-button black w-inline-block w--current">
+          <div class="verified-product-text-wrap">
+            <div class="text-block-5">Unverified Product</div><img src="images/Union.svg" loading="lazy" alt="" class="image-4">
+          </div>
+          <a href="" class="main-button black w-inline-block">
             <div class="text-block-7">Try again</div>
           </a>
         </div>
@@ -415,7 +420,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
       <div class="dynamic-transition-div">
         <a href="https://www.optimumnutrition.com/en-us/Products/Advanced-Fitness/Muscle-Building/" target="_blank" class="dynamic-div-left w-inline-block">
           <div class="filter-wrapper">
-            <h1 class="main-h1 centered white"><strong>A Lineup of Only<br>the Best</strong></h1>
+            <h1 class="main-h1 centered white"><strong>Many flavors<br>to choose from</strong></h1>
             <div class="main-button black">
               <div>Check out the Lineup</div>
             </div>
@@ -459,7 +464,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
     <div class="footer-divider"></div>
     <div class="footer-copyright-center bottom-margin">Copyright © 2022 ON Authenticity Check - All Rights Reserved.</div>
     <div class="footer-copyright-center">
-      <a href="http://inraft.com" target="_blank" class="link">Designed &amp; Developed by <span class="text-span">Inraft Digital Solutions</span></a>
+      <a href="http://inraft.com" target="_blank" class="link light">Designed &amp; Developed by <span class="text-span">Inraft Digital Solutions</span></a>
     </div>
   </section>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63112328b7275721e03baf03" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>

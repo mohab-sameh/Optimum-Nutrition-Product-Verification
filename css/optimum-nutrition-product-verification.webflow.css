@@ -96,8 +96,9 @@
   min-height: 500px;
   padding-right: 64px;
   padding-left: 64px;
-  background-image: url('../images/Advanced-Fitness-Creatine-1.svg');
-  background-position: 50% 50%;
+  background-image: url('../images/Group-33.webp');
+  background-position: 0% 50%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
@@ -1292,7 +1293,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/Optimum-Nutrition-1.png');
+  background-image: url('../images/Optimum-Nutrition-1.webp');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1350,7 +1351,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/1646323886138-1.png');
+  background-image: url('../images/1646323886138-1.webp');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1371,6 +1372,11 @@
 .link {
   color: #fff;
   text-decoration: none;
+}
+
+.link.light {
+  opacity: 0.2;
+  font-size: 12px;
 }
 
 .text-span {
@@ -1440,8 +1446,8 @@
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: 50% 0%;
-  object-position: 50% 0%;
+  -o-object-position: 55% 0%;
+  object-position: 55% 0%;
 }
 
 .text-block-7 {
@@ -1511,6 +1517,31 @@
   justify-content: flex-end;
 }
 
+.image-3 {
+  max-height: 300px;
+}
+
+.verified-product-text-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column-gap: 20px;
+}
+
+.image-4 {
+  height: 40px;
+}
+
 @media screen and (max-width: 991px) {
   .navbar {
     position: fixed;
@@ -1560,11 +1591,6 @@
   .hero-banner {
     width: 100%;
     margin-left: 0px;
-  }
-
-  .hero-banner-top-section {
-    padding-top: 25px;
-    padding-bottom: 25px;
   }
 
   .text-block {
@@ -1935,6 +1961,14 @@
 
   .container-2 {
     max-width: none;
+  }
+
+  .verified-product-text-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
